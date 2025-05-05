@@ -8,16 +8,24 @@
 }
 
 a,
+.nav-link {
+  text-decoration: none;
+  color: hsl(182, 87%, 34%);
+  transition: 0.4s;
+  padding: 3px;
+}
+
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: hsla(183, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(183, 68%, 35%, 0.297);
+    border-radius: 25% 10%;
   }
 }
 
@@ -29,7 +37,7 @@ a,
 
   #app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0 2rem;
   }
 }
